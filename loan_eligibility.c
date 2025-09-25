@@ -20,7 +20,7 @@ int main(){
 	scanf("%d",&income);
 	
 	//loan eligibility
-	if(age >= 21 && income >= 21000){
+	if(age >= 21 & income >= 21000){
 		printf("conratulations you qualify for a loan.\n");
 	  }else{
 		printf("unfortunately,we are unable to offer you a loan at this time");
@@ -29,4 +29,5 @@ int main(){
 	return 0;
 	
 	
+
 }
